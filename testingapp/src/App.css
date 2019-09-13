@@ -12,7 +12,7 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -30,4 +30,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.statsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dashboardContainer {
+  margin-right: 8rem;
+}
+
+.dashboardControls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  width: 20rem;
+  height: 20rem;
+}
+
+.dashboardButton {
+  background-color: aquamarine;
+  color: black;
+  border-radius: 20px;
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
